@@ -1,0 +1,180 @@
+body{
+    background-color:#fefefe;
+    color: #333333;
+    line-height: 1.4em;
+    margin: 0;
+
+}
+
+h1 {
+    color: #333333;
+    font-family: TP;
+    font-size: 50px;
+
+}
+
+h2 {
+    color: #131516;
+    font-family: OpenSansReg;
+    font-weight: bolder;
+}
+
+h3 {
+    color: #EF649C;
+    font-family: OpenSansLight;
+    font-weight: bolder;
+}
+
+p, li {
+    color: #222222;
+    font-family: OpenSansLight;
+}
+
+li  {
+    line-height: 1.4em;
+    margin-bottom:0.5em;
+
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    padding: 0px;
+  }
+  
+  ul li:before {
+    content: '✓';
+    color: #EF649C;
+  }
+
+/*Importing font types*/
+@font-face {
+    font-family: OpenSansLight;
+    src: url('fonts/OpenSans-Light.ttf');
+  }
+  @font-face {
+    font-family: OpenSansReg;
+    src: url('fonts/OpenSans-Regular.ttf');
+  }
+  @font-face {
+    font-family: OpenSansBold;
+    src: url('fonts/OpenSans-ExtraBold.ttf');
+  }
+  @font-face {
+    font-family: TP;
+    src: url('fonts/TabarraPro-Light-FFP.ttf');
+  }
+
+.banner {
+    background:rgb(239, 241, 245);
+    display: flex;
+    align-items: center;
+}
+
+.LHSbanner{
+    width: 50%;
+}
+
+.RHSbanner{
+    width: 50%;
+}
+
+  /*name and intro (.intro)*/
+.intro {
+    margin: 5px;
+    height: 150px;
+    text-align: center;
+    top: 10px;
+}
+/*picture of me (.circle)*/
+.circle {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.links{
+    margin: 5px;
+    text-align: center;
+    top: 20px;
+    padding-bottom: 15px;
+}
+
+/*button to download cv (.downloadCV)*/
+.action{
+    background: grey;
+    height: 50px;
+    width: 120px;
+    margin: 0 10px;
+    left: -10%;
+    font-size: 15px;
+    border-radius: 5px;
+    background: #fefefe;
+    border: 2px solid #333333;
+    cursor: pointer;
+    font-family: OpenSansLight;
+}
+
+/*logic for subheadings*/
+.sub{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 16px;
+}
+.who{
+    text-align: justify;
+    width: 75%;
+    margin: auto;
+}
+.what{
+    text-align: justify;
+    width: 75%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.column {
+    width: 25%;
+    padding: 5px;
+    float: left;
+    flex: 1;
+ }
+
+.card{
+    background: rgb(239, 241, 245);
+    width: 205px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    padding: 16px 16px 0 16px;
+    height: 100%;
+}
+.card p {
+    text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+
+.footer1 {
+    text-align: center;
+    color: #666666;
+    font-family: OpenSansLight;
+}
