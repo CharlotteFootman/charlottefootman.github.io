@@ -178,6 +178,19 @@ ul {
     .card {
         width: 100%;
     }
+    h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .intro p {
+        display: none;
+    }
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
 }
 
 .footer1 {
