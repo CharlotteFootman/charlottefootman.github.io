@@ -50,19 +50,19 @@ ul {
 /*Importing font types*/
 @font-face {
     font-family: OpenSansLight;
-    src: url('fonts/OpenSans-Light.ttf');
+    src: url('Fonts/OpenSans-Light.ttf');
   }
   @font-face {
     font-family: OpenSansReg;
-    src: url('fonts/OpenSans-Regular.ttf');
+    src: url('Fonts/OpenSans-Regular.ttf');
   }
   @font-face {
     font-family: OpenSansBold;
-    src: url('fonts/OpenSans-ExtraBold.ttf');
+    src: url('Fonts/OpenSans-ExtraBold.ttf');
   }
   @font-face {
     font-family: TP;
-    src: url('fonts/TabarraPro-Light-FFP.ttf');
+    src: url('Fonts/TabarraPro-Light-FFP.ttf');
   }
 
 .banner {
